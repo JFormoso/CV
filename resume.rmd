@@ -56,14 +56,14 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this resume online with links at _jformoso.github.io/cv/resume/_")
+  cat("View this resume online with links at _jformoso.github.io/cv.html")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https:///github.com/jformoso/cv/raw/master/formoso_resume.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/JFormoso/CV/blob/main/jformoso-cv.pdf)")
 }
 ```
 
 
-For a longer form version, see my [CV](jformoso.github.io/cv/).
+For a longer form version, see my [CV](jformoso.github.io/cv.html).
 
 Contact {#contact}
 --------------------------------------------------------------------------------
